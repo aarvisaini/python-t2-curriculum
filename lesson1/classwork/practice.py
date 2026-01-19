@@ -1,8 +1,9 @@
 # Problem 1
 # Ask the user for a word.
 # Print the first 3 letters, and then print the last 3 letters.
-
-
+user_word = input("Enter a 6 or more letter word:") 
+print(user_word[ :3])
+print(user_word[-3:])
 
 # Problem 2
 # Ask the user for a sentence.
