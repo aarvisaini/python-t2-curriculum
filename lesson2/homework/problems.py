@@ -3,8 +3,6 @@
 # Print how many words it has.
 # (Hint: split the sentence by spaces)
 
-
-
 # Problem 2
 # Ask the user for a word.
 # Build a new string that turns every vowel into "*".
