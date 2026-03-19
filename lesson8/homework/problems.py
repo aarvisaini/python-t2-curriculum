@@ -49,7 +49,63 @@ t.end_fill()
 
 # Problem 4
 # Use turtle to draw a grid of 3x3 small squares.
-
+import turtle
+t = turtle.Turtle()
+t.speed(6)
+t.width(5)
+t.color("pink")
+for i in range(4):
+       t.forward(50)  
+       t.right(90)
+t.penup()
+t.goto(-50, -0)  
+t.pendown()
+for i in range(4):
+       t.forward(50)  
+       t.right(90)
+t.penup()
+t.goto(-100, -0)  
+t.pendown()
+for i in range(4):
+    t.forward(50)  
+    t.right(90)
+t.penup()
+t.goto(-100, 50)  
+t.pendown()
+for i in range(4):
+       t.forward(50)  
+       t.right(90)
+t.penup()
+t.goto(-49, 50)  
+t.pendown()
+for i in range(3):
+       t.forward(50)  
+       t.right(90)
+t.penup()
+t.goto(-0, -0)  
+t.pendown()
+for i in range(3):
+       t.forward(50)  
+       t.right(90)
+t.penup()
+t.goto(-50, 50)  
+t.pendown()
+for i in range(4):
+       t.forward(50)  
+       t.right(90)
+t.penup()
+t.goto(-0, 50)  
+t.pendown() 
+for i in range(4):
+       t.forward(50)  
+       t.right(90)
+t.penup()
+t.goto(50, 50)  
+t.pendown() 
+for i in range(4):
+       t.forward(50)  
+       t.right(90)
+t.done()       
 
 
 # Problem 5
